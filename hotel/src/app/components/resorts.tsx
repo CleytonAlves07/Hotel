@@ -36,6 +36,7 @@ export function ResortsInfo() {
               alt='Imagem cabanas resort'
               width={500}
               height={500}
+              className=' rounded-md'
             />
         </div>
         </div>
