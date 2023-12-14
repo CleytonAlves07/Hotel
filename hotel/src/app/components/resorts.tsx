@@ -4,9 +4,9 @@ import Image from 'next/image';
 export function ResortsInfo() {
   return (
     <div className='text-gray-600'>
-      <div className='container mx-auto px-4 py-10 bg-red-50 rounded-sm mb-6'>
-        <div className='flex'>
-          <div className='pr-10'>
+      <div className='container mx-auto px-4 bg-red-50 rounded-sm mb-6'>
+        <div className='flex flex-col-reverse lg:flex-row'>
+          <div className='lg:pr-10'>
             <h4 className='text-sm text-gray-400 font-medium'>Resort em Destaque</h4>
             <h2 className=' text-2xl text-gray-500'>Resort Nannai - Porto de Galinhas</h2>
             <div className='flex space-x-2'>
@@ -30,7 +30,7 @@ export function ResortsInfo() {
 
 
 
-          <div className='ml-auto min-w-fit'>
+          <div className='lg:ml-auto flex-shrink-0 mb-5 lg:mb-0'>
             <Image
               src="/images/9-hotel.jpg"
               alt='Imagem cabanas resort'

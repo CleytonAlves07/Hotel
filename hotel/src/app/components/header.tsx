@@ -10,7 +10,7 @@ export function HotelHeader() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-sm font-medium text-gray-600 hover:text-orange-500 hover:underline cursor-pointer hover:font-bold'
+            className='text-sm font-medium text-gray-600 hover:text-orange-500 hover:underline cursor-pointer'
           >
             Como reservar
           </a>
@@ -18,7 +18,7 @@ export function HotelHeader() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-sm font-medium text-gray-600 hover:text-orange-500 hover:underline cursor-pointer hover:font-bold'
+            className='text-sm font-medium text-gray-600 hover:text-orange-500 hover:underline cursor-pointer'
           >
             Sobre nós
           </a>
@@ -26,7 +26,7 @@ export function HotelHeader() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-sm font-medium text-gray-600 hover:text-orange-500 hover:underline cursor-pointer hover:font-bold'
+            className='text-sm font-medium text-gray-600 hover:text-orange-500 hover:underline cursor-pointer'
           >
             Informações
           </a>
@@ -34,7 +34,7 @@ export function HotelHeader() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className='text-sm font-medium text-gray-600 hover:text-orange-500 hover:underline cursor-pointer hover:font-bold'
+            className='text-sm font-medium text-gray-600 hover:text-orange-500 hover:underline cursor-pointer'
           >
             Contato
           </a>

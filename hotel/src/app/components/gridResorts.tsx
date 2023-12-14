@@ -6,8 +6,8 @@ export function GridResorts() {
       <div className='container mx-auto px-4'>
         <h3 className='mb-8 text-2xl text-center text-gray-400 font-semibold'>Visite outros resorts</h3>
 
-        <div className='grid grid-cols-4 grid-rows-2 gap-6'>
-          <div className='relative row-span-2 col-span-2'>
+        <div className='md:grid md:grid-cols-4 md:grid-rows-2 md:gap-6 space-y-6'>
+          <div className='relative md:row-span-2 md:col-span-2'>
             <div className='absolute text-white bottom-0 pl-4 pb-2 font-semibold'>
               Nannai resort
             </div>
