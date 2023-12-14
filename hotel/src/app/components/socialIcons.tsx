@@ -9,7 +9,6 @@ export function SocialIcons() {
       <a href="http://github.com/CleytonAlves07" target="_blank">
         <Github />
       </a>
-      
     </div>
 
   )
