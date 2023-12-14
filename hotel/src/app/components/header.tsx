@@ -1,9 +1,13 @@
+import { LogoHotel } from './logo';
+
 export function HotelHeader() {
   return (
     <div>
       <div className='container mx-auto px-4 h-24 flex items-center'>
 
-        <div className='font-black'>Logo</div>
+        <div>
+          <LogoHotel />
+        </div>
         
         <ul className='flex ml-auto gap-4 p-9'>
           <a

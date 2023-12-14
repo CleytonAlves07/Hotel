@@ -8,7 +8,7 @@ import { FooterHotel } from './components/footer'
 
 export default function Home() {
   return (
-    <main className='bg-gray-50'>
+    <main>
       <HotelHeader />
       <ImgBanner />
       <ResortsInfo />
