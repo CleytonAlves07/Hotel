@@ -4,7 +4,7 @@ import Image from 'next/image';
 export function ResortsInfo() {
   return (
     <div className='text-gray-600'>
-      <div className='container mx-auto px-4 py-10'>
+      <div className='container mx-auto px-4 py-10 bg-red-50 rounded-sm mb-6'>
         <div className='flex'>
           <div className='pr-10'>
             <h4 className='text-sm text-gray-400 font-medium'>Resort em Destaque</h4>
@@ -30,13 +30,13 @@ export function ResortsInfo() {
 
 
 
-          <div className='ml-auto flex-shrink-0'>
+          <div className='ml-auto min-w-fit'>
             <Image
-              src="/images/2-hotel.jpg"
+              src="/images/9-hotel.jpg"
               alt='Imagem cabanas resort'
               width={500}
               height={500}
-              className=' rounded-md'
+              className='rounded-md '
             />
         </div>
         </div>
