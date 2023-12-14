@@ -1,5 +1,3 @@
-
-
 export function HotelHeader() {
   return (
     <div>
@@ -40,6 +38,7 @@ export function HotelHeader() {
           >
             Contato
           </a>
+          
       </ul>
     </div>
     </div>
