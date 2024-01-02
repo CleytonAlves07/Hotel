@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export function ResortsInfo() {
   return (
-    <div className='text-gray-600'>
+    <div className='text-gray-600 p-6'>
       <div className='container mx-auto px-4 bg-red-50 rounded-sm mb-6'>
         <div className='flex flex-col-reverse lg:flex-row'>
           <div className='lg:pr-10'>
